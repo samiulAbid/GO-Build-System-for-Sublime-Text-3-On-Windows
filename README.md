@@ -115,14 +115,14 @@ This method is a tedious process, so, read with patience.
 4)  Inside the "main" folder,  (i.e, inside "<full-path-to-the-folder-named-xxxxxx_project>\src\main" ,
        (for example, inside: "G:\programming_folder\go\helloWorld_project\src\main"))
        create your .go program(or .go code).
-#####################################################################################################
-##                     go program's file structure creator ends                                    ##
-#####################################################################################################
+##################################################################################
+##                     go program's file structure creator ends                 ##
+##################################################################################
 
 
-#####################################################################################################
-##                     go program's running arrangement starts                                     ##
-#####################################################################################################
+#################################################################################
+##                     go program's running arrangement starts                 ##
+#################################################################################
 
 5)  Open cmd. Navigate to "xxxxxx_project" folder in cmd.
        Now, inside cmd, type these two commands one after another:
@@ -148,8 +148,7 @@ This method is a tedious process, so, read with patience.
         )
 
 
-
-#####################################################################################################
-##                     go program's running arrangement ends                                       ##
-#####################################################################################################
+##################################################################################
+##                     go program's running arrangement ends                    ##
+##################################################################################
 Cheers!!!!!!!!!!! You are all done!!!!!!!!!!!!.
