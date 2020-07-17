@@ -28,12 +28,12 @@ a reading of "Method 2" is necessary for gaining insight about what is actually
 happening behind the screen although we will only follow "Method 1".
 
 ## Prerequisites:
-1) .go compiler must be installed and necesary settings must be done
+1) .go compiler must be installed and necessary settings must be done
      prior to going for "Method 1".
 2) go.exe path must be included in the "path" variable of "Environment Variables".
 
 ## How to open cmd(or command prompt):
-    Just press windows_key+R . A little window title "Run" will pop-up. Inside the
+    Just press windows_key+R . A little window titled "Run" will pop-up. Inside the
     window, there will be a box and inside the box, write "cmd" (without quotes)
     and hit ENTER. A black screen wil be opened. That's your cmd(or command prompt).
 
@@ -93,6 +93,7 @@ happening behind the screen although we will only follow "Method 1".
 5) Code running:
      Open your .go program in sublime text 3.
      In the sublime top menubar:
+     
      Select "Tools > Build System > Go" and click "Tools > Build" to run
      your .go program.
 
