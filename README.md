@@ -73,7 +73,7 @@ happening behind the screen although we will only follow "Method 1".
      click "Preferences > Browse Packages". A folder will pop-up. Inside this folder,
      a folder with name = "User" will be present. Navigate inside this folder("User")
      and just copy-paste "Go.sublime-build" inside it(inside the folder "User").
-     Then, close sublime text editor if open.
+     Then, close sublime text editor.
 
 4) Now, double-click "go_program_File_Structure_Creator.bat" (in order to create
      "xxxxxx_project"). ( Note: After double-clicking, a pop up window will appear
