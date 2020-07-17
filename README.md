@@ -133,6 +133,7 @@ This method is a tedious process, so, read with patience.
 
 5)  Open cmd. Navigate to "xxxxxx_project" folder in cmd.
        Now, inside cmd, type these two commands one after another:
+       
 	       (i) Command 1:
                  
 		 set GOPATH="<full-path-to-the-folder-named-xxxxxx_project>"
