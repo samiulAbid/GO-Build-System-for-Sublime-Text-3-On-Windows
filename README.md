@@ -64,8 +64,18 @@ happening behind the screen although we will only follow "Method 1".
      "template_GO_Program_Runner.bat" and paste them inside this folder.
      I repeat, this is the same folder inside which you are going to create
      your 'go' project (e.g:"xxxxxx_project")(see step-1 of "Method 2").
+     
+3) Open the file "Go.sublime-build" in sublime text 3(or any other editor of your choice).
+     Replace "<full-path-to-template_GO_Program_Runner.bat>" (without quotes) with
+     the full path of your "template_GO_Program_Runner.bat"
+     file(see the detailed instructions inside "Go.sublime-build" itself).
+     Save "Go.sublime-build". Next in sublime text's top menubar,
+     click "Preferences > Browse Packages". A folder will pop-up. Inside this folder,
+     a folder with name = "User" will be present. Navigate inside this folder("User")
+     and just copy-paste "Go.sublime-build" inside it(inside the folder "User").
+     Then, close sublime text editor and then open it again.
 
-3) Now, double-click "go_program_File_Structure_Creator.bat" (in order to create
+4) Now, double-click "go_program_File_Structure_Creator.bat" (in order to create
      "xxxxxx_project"). ( Note: After double-clicking, a pop up window will appear
      and it will ask you to enter the name of the project. If you want to create
      "xxxxxx_project", name of the project will be only= "xxxxxx"
@@ -80,15 +90,6 @@ happening behind the screen although we will only follow "Method 1".
      "G:\Programming_folder\go\helloWorld_project\src\main"). Now, write your .go program inside
      the blank file "xxxxxx.go" (by opening it inside sublime text) and then save it.
 
-4) Open the file "Go.sublime-build" in sublime text 3(or any other editor of your choice).
-     Replace "<full-path-to-template_GO_Program_Runner.bat>" (without quotes) with
-     the full path of your "template_GO_Program_Runner.bat"
-     file(see the detailed instructions inside "Go.sublime-build" itself).
-     Save "Go.sublime-build". Next in sublime text's top menubar,
-     click "Preferences > Browse Packages". A folder will pop-up. Inside this folder,
-     a folder with name = "User" will be present. Navigate inside this folder("User")
-     and just copy-paste "Go.sublime-build" inside it(inside the folder "User").
-     Then, close sublime text editor and then open it again.
 
 5) Code running:
      Open your .go program in sublime text 3.
@@ -98,7 +99,8 @@ happening behind the screen although we will only follow "Method 1".
      your .go program.
 
      ** N.B: here, "xxxxxx.go" program is the main .go program.
-
+   
+   Next time, when you will require to run your .go program, you will need to follow just step numbers: 4 & 5 only.
 
 
 
