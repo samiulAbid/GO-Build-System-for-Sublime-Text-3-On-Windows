@@ -52,6 +52,9 @@ happening behind the screen although we will only follow "Method 1".
           then, type in cmd: "cd G:\test1\subtest1 && G:" (without quotes) and hit ENTER.
           You will be inside the folder "G:\test1\subtest1" (in cmd).
 
+
+
+
 ## Method 1 (for running .go program inside sublime text):
 # Steps:
 1) At first, read "Method 2" below to gain a complete idea of how the whole
@@ -96,6 +99,10 @@ happening behind the screen although we will only follow "Method 1".
      ** N.B: here, "xxxxxx.go" program is the main .go program.
 
 
+
+
+
+
 ## Alternatively:: Method 2 (for running .go program Manually inside cmd):
 This method is a tedious process, so, read with patience.
 # Steps:
@@ -127,24 +134,36 @@ This method is a tedious process, so, read with patience.
 5)  Open cmd. Navigate to "xxxxxx_project" folder in cmd.
        Now, inside cmd, type these two commands one after another:
 	       (i) Command 1:
-                 set GOPATH="<full-path-to-the-folder-named-xxxxxx_project>"
-                 ( for example,
-                     set GOPATH="G:\Programming_folder\go\helloWorld_project")
+                 
+		 set GOPATH="<full-path-to-the-folder-named-xxxxxx_project>"
+                 
+		 ( for example,
+                     
+		     set GOPATH="G:\Programming_folder\go\helloWorld_project")
+		     
                  After typing the above command in cmd, hit ENTER.
-		     (ii) Command 2:
-                  set GOBIN="<full-path-to-the-folder-named-xxxxxx_project>\bin"
+	        (ii) Command 2:
+		
+                      set GOBIN="<full-path-to-the-folder-named-xxxxxx_project>\bin"
+		      
                   ( for example,
+		  
                      set GOBIN="G:\Programming_folder\go\helloWorld_project\bin" )
+		     
                   After typing the above command in cmd, hit ENTER.
 
  6) Now, inside the cmd, navigate to the "<full-path-to-the-folder-named-xxxxxx_project>\src\main" folder
       (for example, "G:\programming_folder\go\helloWorld_project\src\main")
       where you have already created your .go program. Now, to execute your .go code,
       type in the cmd (by the way, the following .go program is the main .go program):
+      
 	       go run basename_of_your_go_program.go
+	       
         (
           for example, if the name of your .go program is "addition.go", then
-                   basename_of_your_go_program = addition
+                   
+		   basename_of_your_go_program = addition
+		   
         )
 
 
