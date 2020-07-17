@@ -69,7 +69,7 @@ happening behind the screen although we will only follow "Method 1".
      Replace "<full-path-to-template_GO_Program_Runner.bat>" (without quotes) with
      the full path of your "template_GO_Program_Runner.bat"
      file(see the detailed instructions inside "Go.sublime-build" itself).
-     Save "Go.sublime-build". Next in sublime text's top menubar,
+     Save "Go.sublime-build". Now, open sublime text. In sublime text's top menubar,
      click "Preferences > Browse Packages". A folder will pop-up. Inside this folder,
      a folder with name = "User" will be present. Navigate inside this folder("User")
      and just copy-paste "Go.sublime-build" inside it(inside the folder "User").
