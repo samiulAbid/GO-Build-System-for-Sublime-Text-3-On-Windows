@@ -97,6 +97,8 @@ happening behind the screen although we will only follow "Method 1".
      
      Select "Tools > Build System > Go" and click "Tools > Build" to run
      your .go program.
+     
+     A pop-up console will open and show your outputs. The console also can take inputs.
 
      ** N.B: here, "xxxxxx.go" program is the main .go program.
    
@@ -106,7 +108,8 @@ to run the .go program just like any other sublime build system.
 Even if you need to modify your .go program, even then, you need to follow step-4(Method-1) only once and after that you may modify 
 your .go program as many times as you want and follow step-5(Method-1) to run your .go program.
 
-
+*N.B: If by any reason, you run a .go program and the new pop-up window opens but you do not find any output there, 
+then just press a single key (any key from your keyboard), then, you will see your ouput.
 
 
 
