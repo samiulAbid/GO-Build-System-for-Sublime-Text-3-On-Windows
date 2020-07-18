@@ -15,3 +15,4 @@ cd %goProgramFolder%
 :: go build %~n0.go
 :: %~n0.exe
 go run %~n0.go
+pause
