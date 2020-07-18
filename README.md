@@ -100,7 +100,7 @@ happening behind the screen although we will only follow "Method 1".
 
      ** N.B: here, "xxxxxx.go" program is the main .go program.
    
-   Next time, when you will require to run your .go program, you will need to follow just step numbers: 4 & 5 only.
+   Next time, when you will require to run any arbitrary .go program, you will need to follow just step numbers: 4 & 5 only.
 
 
 
