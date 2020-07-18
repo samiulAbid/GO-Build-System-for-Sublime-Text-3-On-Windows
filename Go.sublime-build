@@ -1,5 +1,5 @@
 {
-    "shell_cmd": "copy <full-path-to-template_GO_Program_Runner.bat> \"$file_base_name\".bat && start cmd /k \"$file_base_name\".bat",
+    "shell_cmd": "copy <full-path-to-template_GO_Program_Runner.bat> \"$file_base_name\".bat && start cmd /c \"$file_base_name\".bat",
     "file_regex": "^(...?):([0-9]):?([0-9]*)",
     "working_dir": "$file_path",
     "selector": "source.go",
