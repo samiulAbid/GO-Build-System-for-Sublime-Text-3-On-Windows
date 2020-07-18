@@ -100,7 +100,11 @@ happening behind the screen although we will only follow "Method 1".
 
      ** N.B: here, "xxxxxx.go" program is the main .go program.
    
-   Next time, when you will require to run any arbitrary .go program, you will need to follow just step numbers: 4 & 5 only.
+From the next time, every time when you will require to run any arbitrary .go program, you will at first need
+to perform the task of step no: 4 (Method -1) only once and then simply follow step no:5 (Method-1) 
+to run the .go program just like any other sublime build system.
+Even if you need to modify your .go program, even then, you need to follow step-4(Method-1) only once and after that you may modify 
+your .go program as many times as you want and follow step-5(Method-1) to run your .go program.
 
 
 
