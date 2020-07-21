@@ -7,25 +7,8 @@ creation inside sublime text 3 and then running .go programs by a single-click",
 So, definitely, "Method 1" is the method we are looking for in order to create a
 'go' build system in sublime text 3.
 
-"Method 1" is applicable only for windows os, because, two batch(.bat) programs
-have been used in "Method 1".
-(If you are a linux or Mac osx user, even then you can make your
-own sublime-build system for .go programs(just like the one depicted in "Method 1" for windows) thus:
-(the following 3 steps are only for those who want to create a .go build system
-in any operating system other than windows:)
-1) At first read "Method 2" to gain an insight about all the background processes.
-2) Now read "Method 1"(just read, do nothing else) carefully, beacause, it is "Method 1" that
-   will be necessary for building your .go build-system for sublime text 3 in your os,
-   not "Method 2";  "Method 2" is just for an insight.
-3) Now, simply convert all the commands inside the two .bat files (Method 1) and the value of
-     "shell_cmd" key inside "Go.sublime-build"(Method 1) to equivalent Linux/Mac_osx commands
-     and follow instructions of Method 1. If you follow the 3 steps here,
-     then you will be able to make your own sublime .go build-system for your os.)
-
-
-Of the two methods, we are specifically looking for Method 1. But even after that
-a reading of "Method 2" is necessary for gaining insight about what is actually
-happening behind the screen although we will only follow "Method 1".
+But even after that a reading of "Method 2" is necessary for gaining insight about what is 
+actually happening behind the screen although we will only follow "Method 1".
 
 ## Prerequisites:
 1) .go compiler must be installed and necessary settings must be done
