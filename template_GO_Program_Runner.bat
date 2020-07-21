@@ -5,14 +5,15 @@ set parentFolder=%cd%
 set GOPATH="%parentFolder%"
 set GOBIN="%parentFolder%\bin"
 cd %goProgramFolder%
-:: "echo %0" or "echo %nx0"(of course,
-:: without quotes), will give the
-:: .bat filename which contains one
-:: of these commands in itself;
-:: whereas, "echo %~n0" (without quotes)
-:: will give only the file's basename
-:: (without extension).
-:: go build %~n0.go
-:: %~n0.exe
+rem "echo %0" or "echo %nx0"(of course,
+rem without quotes), will give the
+rem .bat filename which contains one
+rem of these commands in itself;
+rem whereas, "echo %~n0" (without quotes)
+rem will give only the file's basename
+rem (without extension).
+rem go build %~n0.go
+rem %~n0.exe
 go run %~n0.go
+echo.
 pause
